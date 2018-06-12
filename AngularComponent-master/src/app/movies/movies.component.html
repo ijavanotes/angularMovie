@@ -1,0 +1,25 @@
+<div style="text-align:left;width:500px;">
+    <h1>
+        {{ title }}!
+    </h1>
+
+    <table datatable class="table row-border hover" *ngIf="this.temp_var">
+        <thead>
+          <tr>
+            <th>Director</th>
+            <th>Title</th>
+            <th>Type</th>
+            <th>Release Date</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let rec of this.data">
+            <td>{{rec.director}}</td>
+            <td>{{rec.title}}</td>
+            <td>{{rec.type}}</td>
+            <td>{{rec.releaseDate}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
