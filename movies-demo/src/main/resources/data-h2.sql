@@ -1,0 +1,1 @@
+insert into movie values (1,'Avengers: Infinity War',parsedatetime('25/04/2018', 'dd/MM/yyyy'), 'sci-fi','Anthony RUSSO, Joe RUSSO');
